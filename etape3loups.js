@@ -6,7 +6,7 @@ bouton.addEventListener('click', () => {
   const mot = champ.value.trim().toLowerCase();
 
   if (mot === 'loup') {
-    const audio = new Audio('mp3/VersEtapeCommuneloups.mp3');
+    const audio = new Audio('mp3/VersEtapeCommuneLoups.mp3');
     audio.play();
 
     audio.addEventListener('ended', () => {
