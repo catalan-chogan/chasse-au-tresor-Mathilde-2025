@@ -6,6 +6,6 @@ startBtn.addEventListener('click', () => {
 
   // Quand l'audio est terminé, redirection :
   audio.addEventListener('ended', () => {
-    window.location.href = 'ChoixEquipe.html';
+    window.location.href = 'choixequipe.html';
   });
 });
